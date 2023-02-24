@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=PT+Serif&family=Roboto:wght@400;500&display=swap');
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+div h1 {
+    color:aliceblue;
+}
+
+h1 span {
+    color: black;
+}
+
+main img {
+    width: 350px;
+    border: 7px solid aliceblue;
+}
+
+.download-obras {
+    padding: 10px 20px;
+    background-color: #7dbae5;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 2.5px 5px #7dbae5;
+
+}
+
+.download-obras:hover{
+    background-color: #7dbae5;
+    box-shadow: none;
+}
